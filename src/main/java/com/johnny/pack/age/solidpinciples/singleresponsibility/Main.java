@@ -22,6 +22,7 @@ public class Main {
             System.err.println("Failed");
         }
         System.out.println("Valid JSON received response: " + response);
+
         response = controller.createUser(INVALID_USER_JSON);
         if(!response.equalsIgnoreCase("ERROR")){
             System.err.println("Failed");
