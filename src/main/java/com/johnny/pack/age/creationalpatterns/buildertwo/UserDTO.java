@@ -9,6 +9,8 @@ public class UserDTO {
     private String address;
     private String age;
 
+    private UserDTO(){}
+
     public String getName() {
         return name;
     }
@@ -70,11 +72,8 @@ public class UserDTO {
         }
 
         public UserDTOBuilder withAddress(Address address) {
-            this.address = address.getHouseNumber() + ", "
-                    + address.getStreet() + "\n"
-                    + address.getCity() + "\n"
-                    + address.getState() + " "
-                    + address.getZipCode();
+            this.address = address.getHouseNumber() + " " + address.getStreet() + "\n"
+                    + address.getCity() + ", " + address.getState() + ", " + address.getZipCode();
             return this;
         }
 
