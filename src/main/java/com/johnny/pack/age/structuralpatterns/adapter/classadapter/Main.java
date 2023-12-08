@@ -3,6 +3,9 @@ package com.johnny.pack.age.structuralpatterns.adapter.classadapter;
 public class Main {
 
     public static void main(String[] args) {
+        // Class adapter is not the preferred adapter because
+        // the adapter will then have access to methods in the adaptee.
+        // Object adapter is preferable.
         EmployeeClassAdapter adapter = new EmployeeClassAdapter();
         populateEmployeeData(adapter);
         BusinessCardDesigner designer = new BusinessCardDesigner();
