@@ -1,4 +1,4 @@
-package com.johnny.pack.age.structuralpatterns.decorator;
+package com.johnny.pack.age.structuralpatterns.decorator.udemyexample;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 
