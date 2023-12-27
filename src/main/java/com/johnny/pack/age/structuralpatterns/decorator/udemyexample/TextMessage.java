@@ -1,4 +1,4 @@
-package com.johnny.pack.age.structuralpatterns.decorator;
+package com.johnny.pack.age.structuralpatterns.decorator.udemyexample;
 
 public class TextMessage implements Message{
     private String msg;
