@@ -20,7 +20,7 @@ public class Client {
 
         // No guarantee the request will be handled.
         // It could just move up the chain and never meet the conditions to
-        // handled. 
+        // handled.
         LeaveApplication application2 = LeaveApplication.getBuilder()
                 .withType(LeaveApplication.Type.Sick)
                 .from(LocalDate.of(2023, 12, 20))
