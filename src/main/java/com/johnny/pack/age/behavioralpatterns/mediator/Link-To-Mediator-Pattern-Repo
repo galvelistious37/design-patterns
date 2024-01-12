@@ -1,0 +1,4 @@
+The mediator design pattern example uses JavaFX and it was
+easier for me to create a new project with JavaFX than to try to
+update this one. That repo is located here:
+https://github.com/galvelistious37/jfx-mediator
